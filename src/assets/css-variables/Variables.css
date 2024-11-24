@@ -1,0 +1,25 @@
+:root {
+  --dark-grey: #302e2e;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("Montserrat-Italic-VariableFont_wght.ttf") format("ttf");
+  font-weight: 100 900; /* Variable range of weights */
+  font-stretch: 75% 125%; /* Variable range of widths (optional) */
+}
+@font-face {
+  font-family: "Wix-Madefor";
+  src: url("WixMadeforDisplay-VariableFont_wght.ttf") format("ttf");
+  font-weight: 100 900; /* Variable range of weights */
+  font-stretch: 75% 125%; /* Variable range of widths (optional) */
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--text-color);
+  background-color: black;
+}

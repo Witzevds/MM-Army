@@ -1,0 +1,50 @@
+.hero {
+  position: relative; /* Ensure .hero is the containing block for absolute positioning */
+  background: url("src/assets/images/Hero-background.jpg") no-repeat center
+    center/cover;
+
+  height: 95vh; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff; /* White text color */
+  text-align: center;
+  overflow: hidden; /* Prevent overflow from positioned elements */
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  & .hero__text--title {
+    font-family: "Wix-Madefor", sans-serif;
+    font-weight: 600;
+    font-size: 6rem;
+    text-transform: uppercase;
+
+    line-height: 1.5;
+  }
+
+  & .hero__logo {
+    width: 35rem;
+    margin-top: 2rem;
+  }
+  & .hero__text--sub-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+
+  & .hero__socials {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 2rem;
+    & .hero__socials--item {
+      width: 5rem;
+    }
+    & .hero__socials--item:hover {
+      transform: scale(1.1);
+    }
+  }
+}

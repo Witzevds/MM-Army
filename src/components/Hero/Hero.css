@@ -1,6 +1,6 @@
 .hero {
   position: relative; /* Ensure .hero is the containing block for absolute positioning */
-  background: url("src/assets/images/Hero-background.jpg") no-repeat center
+  background: url("/assets/images/Hero-background.jpg") no-repeat center
     center/cover;
 
   height: 95vh; /* Full viewport height */
